@@ -5,11 +5,9 @@ Home: https://github.com/pepkit/peppy/
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/peppy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Project metadata manager for PEPs in Python
-
-
 
 Current build status
 ====================
