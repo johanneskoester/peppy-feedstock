@@ -1,5 +1,5 @@
 {% set name = "peppy" %}
-{% set version = "0.31.0" %}
+{% set version = "0.31.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 834c0581023196abe96956b76039b5729594e6b263977fc06b0746ca1323b30b
+  sha256: f0129dd938514c8f9e6979edfccffd60e8e3ff2035c99051dd01328a92bfb51c
 
 build:
   number: 0
@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - attmap >=0.12.5
-    - python
+    - python >=3.6
     - pyyaml >=5
     - ubiquerg >=0.5.2
     - pandas >=0.24.2
