@@ -10,17 +10,17 @@ source:
   sha256: 2f8b19ca3e034afea77aa11d2b8d30982adc4b0ce44bae6d8ecd5cf0da0af002
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.6,<3.10
   run:
     - attmap >=0.12.5
-    - python >=3.6
+    - python >=3.6,<3.10
     - pyyaml >=5
     - ubiquerg >=0.5.2
     - pandas >=0.24.2
